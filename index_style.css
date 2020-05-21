@@ -1,0 +1,155 @@
+/*21861128 한채연*/
+
+body {
+  margin: 0;
+  font-family: sans-serif ,"본고딕";
+  width: 100%;
+
+}
+
+#write {
+  clear: both;
+  margin: 0 0 0 56px;
+
+}
+
+.nav {
+  width:100%;
+}
+
+.logo {
+  float:left;
+  color: white;
+  font-size: 40px;
+  margin: 16px 0 16px 56px;
+
+}
+.logo a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    background-color: black;
+  color: black;
+  overflow: hidden;
+  width: 100%;
+
+
+}
+
+.li_margin {
+  margin: 0 18px 0 0;
+}
+
+li {
+    float: right;
+    padding: 0 44px 0 0;
+    margin: 34px 0 0 0 ;
+}
+
+ li a {
+
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: inline;
+
+}
+
+li a:visited{
+  text-decoration: none;
+    color: white;
+}
+
+li a:hover, li a:active {
+  color: #1bff10;
+}
+
+
+.color{
+  color: #1bff10;
+}
+
+.img_container ,.img_slide1, .img_slide2, .img_slide3{
+  width:100%;
+  clear:both;
+  overflow: hidden;
+  height:90%;
+}
+.img_slide1{
+  position: absolute;
+  top: 85px;
+
+  left: 0;
+  right: 0;
+
+  animation-name: sil;
+  animation-duration: 7s;
+  overflow: hidden;
+animation-timing-function: linear;
+
+
+}
+.img_slide2{
+  position: absolute;
+  top:85px;
+  left: 0;
+  right: 0;
+  animation-name: sil2;
+  animation-duration: 14s;
+animation-timing-function: linear;
+
+}
+
+.img_slide3{
+  position: absolute;
+  top:85px;
+
+  left: 0;
+  right: 0;
+
+  animation-name: sil3;
+  animation-duration: 22.8s;
+  animation-timing-function: linear;
+
+}
+
+
+
+@keyframes sil {
+  0% {
+    transform: translate(1800px);
+
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes sil2 {
+  0% {
+    transform: translate(3200px);
+    80% {
+      transform: translate(100px);
+    }
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes sil3 {
+  0% {
+    transform: translate(4000px);
+  60% {
+    transform: translate(1600px);
+  }
+
+  }
+  100% {
+    transform: translate(0px);
+  }
+}

@@ -1,0 +1,99 @@
+/*21861128 한채연*/
+
+body {
+  margin: 0;
+  font-family: sans-serif ,"본고딕";
+  width: 100%;
+  background-color: black;
+  color: white;
+
+}
+
+#write {
+  clear: both;
+  margin: 0 0 0 56px;
+
+}
+
+.nav {
+  width:100%;
+}
+
+.logo {
+  float:left;
+  color: white;
+  font-size: 40px;
+  margin: 16px 0 16px 56px;
+
+}
+
+.logo a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    background-color: black;
+  color: black;
+  overflow: hidden;
+  width: 100%;
+
+
+}
+
+.li_margin {
+  margin: 0 18px 0 0;
+}
+
+li {
+    float: right;
+    padding: 0 44px 0 0;
+    margin: 34px 0 0 0 ;
+}
+
+ li a {
+
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: inline;
+
+}
+
+li a:visited{
+  text-decoration: none;
+    color: white;
+}
+
+li a:hover, li a:active {
+  color: #1bff10;
+}
+
+
+.color{
+  color: #1bff10;
+}
+
+h1 {
+  font-size: 72pt;
+  font-weight: bold;
+  clear: left;
+  margin: 200px 0 0 72px;
+}
+
+.text {
+  margin: 184px 0 0 72px;
+  width: 600px;
+  line-height: 2.2;
+  font-size: 13pt;
+  word-break: normal;
+}
+
+.insa img {
+  float: right;
+  width: 50%;
+  height: 50%;
+
+}

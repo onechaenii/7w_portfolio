@@ -1,0 +1,171 @@
+/*21861128 한채연*/
+
+body {
+  margin: 0;
+  font-family: sans-serif ,"본고딕";
+  width: 100%;
+
+}
+
+#write {
+  clear: both;
+  margin: 0 0 0 56px;
+
+}
+
+.farmer_rice {
+  clear: both;
+  margin: 0 0 0 0px;
+
+}
+
+.nav {
+  width:100%;
+}
+
+.logo {
+  float:left;
+  color: white;
+  font-size: 40px;
+  margin: 16px 0 16px 56px;
+
+}
+
+.logo a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    background-color: black;
+  color: black;
+  overflow: hidden;
+  width: 100%;
+
+
+}
+
+.li_margin {
+  margin: 0 18px 0 0;
+}
+
+li {
+    float: right;
+    padding: 0 44px 0 0;
+    margin: 34px 0 0 0 ;
+}
+
+ li a {
+
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: inline;
+
+}
+
+li a:visited{
+  text-decoration: none;
+    color: white;
+}
+
+li a:hover, li a:active {
+  color: #1bff10;
+}
+
+
+.color{
+  color: #1bff10;
+}
+
+h1 {
+  margin:30px 0 168px 0px;
+  font-size:72pt;
+  text-align: center;
+}
+
+.p_center {
+  margin-top: 170px;
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+
+}
+
+.farmer_rice {
+background-color: black;
+}
+
+.rice_img {
+width: 45%;
+height: 45%;
+margin: 0 158px 0 100px;
+padding: 56px 0 0 0;
+float: left;
+}
+
+.rice_talk {
+  color: White;
+  font-size: 24pt;
+  padding: 128px 0 0 0;
+  font-weight: bold;
+}
+
+.rice_more {
+  color: white;
+  font-size: 14pt;
+
+  font-weight: normal;
+  line-height: 2.2;
+  margin-top: 72px;
+  padding-bottom: 128px;
+}
+
+h2 {
+  font-size: 48pt;
+  margin: 200px 0 0 142px;
+}
+
+.me {
+  width: 400px;
+  height: 400px;
+  margin: 160px 200px 0 140px;
+  float: left;
+}
+
+.who_farmer {
+  margin: 288px 0 0 0;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 14pt;
+  font-weight: 400;
+  padding: 36px 0 0 0;
+  line-height: 1.8;
+
+}
+
+ td {
+  clear:left;
+  padding: 34px 0 0 140px;
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.td2
+{
+  margin: 0 0 84px 76px;
+}
+.td2 td {
+  padding: 34px 0 24px 64px;
+}
+
+.name_pro {
+  padding: 0 0 0 22px;
+  font-size: 12pt;
+  font-weight: bold;
+}
